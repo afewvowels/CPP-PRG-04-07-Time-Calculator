@@ -45,19 +45,19 @@ int main()
     {
         fltDisplay = fltSecondsInput * FLT_TIME_MINUTES;
         cout << "That many seconds is equal to "
-             << fltDisplay << " minutes.";
+             << fltDisplay << " minutes.\n";
     }
     else if(fltSecondsInput <= 86400 && fltSecondsInput > 3600)
     {
         fltDisplay = fltSecondsInput * FLT_TIME_HOURS;
         cout << "That many seconds is equal to "
-             << fltDisplay << " hours.";
+             << fltDisplay << " hours.\n";
     }
     else if(fltSecondsInput >= 86400)
     {
         fltDisplay = fltSecondsInput * FLT_TIME_DAYS;
         cout << "That many seconds is equal to "
-             << fltDisplay << " days.";
+             << fltDisplay << " days.\n";
     }
     
     return 0;
